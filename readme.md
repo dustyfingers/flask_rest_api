@@ -4,6 +4,7 @@ test project
 python 3
 
 # Requirements
+(you can see this in requirements.txt)
 aniso8601==8.0.0
 click==7.1.2
 Flask==1.1.2
@@ -37,3 +38,6 @@ to run the virtualenv, run: `source venv/bin/activate`
 to deactivate, run: `deactivate`
 
 # Instructions
+1. set up virtual env in this folder
+2. install dependencies while in virtual env `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
+3. run `python main.py` or `python3 main.py`
