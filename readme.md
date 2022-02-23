@@ -17,6 +17,7 @@ pytz==2020.1
 six==1.15.0
 SQLAlchemy==1.3.18
 Werkzeug==1.0.1
+requests==2.27.1
 
 # Virtual Env Setup
 ## windows setup:
