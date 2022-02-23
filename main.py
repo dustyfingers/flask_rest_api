@@ -10,7 +10,10 @@ class HelloWorld(Resource):
 
     # handles get method
     def get(self):
-        return {"data": "Hello World"}
+        return {"data": "GET to /helloworld"}
+
+    def post(self):
+        return {"data": "POST to /helloworld!"}
 
 # register HelloWorld resource with the api
 api.add_resource(HelloWorld, "/helloworld")
